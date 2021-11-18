@@ -6,7 +6,7 @@
   padding: 0;
 }
 body{
-  color: #130227;  
+  color: #130227;
 }
 main{
   background: linear-gradient(to right bottom, #ffbd39, #7d2cbb);
@@ -18,7 +18,7 @@ main{
     background: white;
     min-height: fit-content;
     width: 65%;
-    border-radius: 5%;
+    border-radius: 70px;
     background: linear-gradient(to right top, rgba(255,255,255,0.3), rgba(255,255,255,0.7));
     z-index: 5;
     backdrop-filter: blur(20px);
@@ -29,11 +29,6 @@ main{
 
     @media only screen and (max-width: 850px) {
       width: 95%;
-    }
-
-    @media only screen and (max-width: 600px) {
-      border-radius: 2%;
-      ;
     }
   }
 }
@@ -83,8 +78,7 @@ main{
     &_title{
       padding: 10px 0;
       font-size: 38px;
-      font-weight: 600;
-      text-shadow: 0.035em 0.035em 0 #7d2cbb, 0.085em 0.085em 0 #ffbd39
+      text-shadow: 0.02em 0.02em 0 #ffffff;
     }
     &_accordion {
       cursor: pointer;
@@ -94,7 +88,7 @@ main{
         &_header {
           color: beige;
           margin: 8px 0;
-          border-radius: 20px;
+          border-radius: 40px;
           padding: 10px;
           display: flex;
           justify-content: space-between;
@@ -115,7 +109,6 @@ main{
           max-height: 0;
           overflow: hidden;
           transition: max-height 1s ease;
-  
           p {
             margin-top: 0;
             padding-left: 29px;
